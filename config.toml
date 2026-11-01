@@ -1,0 +1,9 @@
+# Put this file at:  .streamlit/config.toml   (inside your GitHub repo)
+# Optional extra: hides Streamlit's Edit / Deploy / menu toolbar at the framework level.
+# The dashboard already hides it with CSS too, so this is just a second safety layer.
+
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
